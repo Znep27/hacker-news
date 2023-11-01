@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  background: #f6f6ef;;
 }
 
 .App-logo {
@@ -13,15 +13,54 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.Header {
+  height: 60px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #ff742b;
+  height: auto;
+  padding: 4px;
+  position: relative;
+  justify-content: space-between;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.Header-logo {
+  width: 48px;
+  margin-right: 8px;
+}
+
+.Search-input {
+  border-radius: 0;
+  border-color: rgba(0,0,0,0);
+  border: none;
+  height: 16px;
+  width: 850px;
+  box-shadow: none;
+  padding: 16px 144px 16px 54px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: #fff;
+  color: rgba(0,0,0,.75);
+}
+
+.Title-link {
+  text-decoration: none;
+  color: black;
+}
+
+.Links {
+  text-decoration: none;
+  color: gray;
+  font-size: small;
+}
+
+.Links:hover {
+  text-decoration: underline;
 }
 
 .App-link {

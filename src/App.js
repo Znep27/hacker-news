@@ -7,7 +7,7 @@ function App() {
 
   const updateArticles = async (e) => {
     console.log('e.target.value,', e.target.value)
-    const { data } = await axios.get(`http://hn.algolia.com/api/v1/search?query=${e.target.value}`)
+    const { data } = await axios.get(`https://hn.algolia.com/api/v1/search?query=${e.target.value}`)
     console.log(data.hits)
     setArticles(data.hits)
   }
